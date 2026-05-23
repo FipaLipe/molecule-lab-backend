@@ -7,9 +7,19 @@ env/
 __pycache__/
 *.pyc
 *.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
 
 # Jupyter Notebooks checkpoints
 .ipynb_checkpoints/
+
+# Builds e cobertura
+build/
+dist/
+.coverage
+htmlcov/
 
 # Variáveis de ambiente
 .env
